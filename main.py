@@ -86,10 +86,6 @@ def atualizar_carro(id):
         return gera_response(400,'carros',{}, "Erro ao atualizar")
     
 
-
-
-
-
     # DELETAR
 
 @app.route("/carros/<id>", methods =["DELETE"])
